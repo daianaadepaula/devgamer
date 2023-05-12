@@ -10,8 +10,7 @@ body {
 }
 
 img {
-  width: 1400px;
-  height: 549px;
+  width: 100%;
 }
 
 h1 {
@@ -19,6 +18,8 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
 }
 
 p {
@@ -26,4 +27,79 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
+  margin: 30px;
+}
+
+input {
+  display: block;
+  width: 386px;
+  height: 50px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  color: #737373;
+  font-size: 14px;
+  padding: 21px;
+  outline: none;
+}
+
+textarea {
+  display: block;
+  width: 386px;
+  height: 145px;
+  background: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  resize: none;
+  color: #737373;
+  font-size: 14px;
+  padding: 21px;
+  outline: none;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  padding: 15px 40px;
+  width: 187px;
+  height: 52px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.enviar {
+  background: #40bb15;
+  margin-right: 10px;
+}
+
+.voltar {
+  background: #828282;
+}
+
+.contato {
+  background: #40bb15;
+  display: block;
+  margin: 40px auto;
+  padding: 20px;
 }
